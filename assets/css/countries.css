@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Pinyon+Script&display=swap');
+
+/* Header */
+.hero-food-container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-food-img {
+    margin-top: 5rem;
+}
+
+.hero-food-img > img {
+    width: 31.25rem;
+}
+
+.hero-food-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hero-food-text > article > h2 {
+    margin: 0;
+    color: red;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.hero-food-text > article > p {
+    font-size: 24px;
+}
+
+/* Main */
+.main-container {
+    width: 100%;
+    height: fit-content;
+    display: inline-flex;
+    margin-top: 3rem;
+}
+
+.rcp-info {
+    margin: 50px;
+}
+
+.rcp-info > .rcp-ingred,
+.rcp-info > .rcp-steps {
+    text-align: center;
+}
+
+.rcp-info > .rcp-ingred > h2,
+.rcp-info > .rcp-steps > h2
+{
+    font-size: 40px;
+}
+
+.rcp-table {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.rcp-table td:first-child {
+    text-align: left;
+}
+
+.rcp-table td {
+    text-align: right;
+}
+.rcp-steps > .list {
+    width: 70%;
+    margin: auto 10%;
+}
+.rcp-info > .rcp-steps > ol {
+    text-align: justify;
+}
+
+.rcp-end > .rcp-result {
+    text-align: center;
+}
+
+.rcp-r-img > img {
+    width: 600px;
+    height: 400px;
+}
+
+.rcp-tutorial {
+    text-align: center;
+}
