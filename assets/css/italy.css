@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Pinyon+Script&display=swap');
+/* header */
+/* --banner-- */
+.italyBanner{
+    position: relative;
+    margin: 0 auto 4rem auto;
+    background-image: url(../img/banners/italy-banner.jpg);
+    background-position: center 80%;
+    background-size: cover;
+    height: 25rem;
+    width: 100%;
+}
+.italyBannerContent{
+    position: absolute;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.751) 0%, rgba(19, 19, 19, 0.551) 100%, rgba(0, 0, 0, 0.568) 100%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 5rem;
+}
+.italyBannerContent p{
+    margin: 0;
+}
+.italyBannerContent img{
+    width: 5rem;
+}
+.description1 article h2{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2rem;
+}
+.recipeItalian{
+    width: 90%;
+    margin: auto;
+    height: 22rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border: 1px solid #c7a9a98a;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 0px rgba(173, 167, 167, 0.404);
+}
+.recipeItalianS1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recipeItalianS1 img{
+    width: 30rem;
+}
+.recipeItalianS2{
+    width: 50%;
+    height: 100%;
+    /* background-color: #E8C4C4; */
+    
+    padding: 0 2rem;
+}
+.recipeItalianS2 h2{
+    margin: 2.9rem auto .5rem auto;
+}
+.recipeItalianS2 p{
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+.subdivision2{
+    border: 1px solid #CE7777;
+    left: 0;
+    width: 15rem;
+    margin: 0 0 1rem 0;
+}
+.viewMoreBtn{
+    text-decoration: none;
+    background-color: #2B3A55;
+    color: #ffffff;
+    padding: .5rem .6rem;
+    border-radius: 8px;
+    
+}
+.viewMoreBtn2 {
+    color: #CE7777;
+}
+.viewMoreBtn2:visited {
+    color: #CE7777;
+}
+.viewMoreBtn2:hover {
+    filter: brightness(1.75);
+}
