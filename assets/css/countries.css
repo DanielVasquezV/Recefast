@@ -1,89 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 /* Header */
-.hero-food-container {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
+.prev-container {
+    display: flex;
+    margin: 5rem 6rem;
+    box-shadow: 18px -15px 39px -1px rgba(0,0,0,0.41);
 }
 
-.hero-food-img {
-    margin-top: 5rem;
-}
-
-.hero-food-img > img {
-    width: 31.25rem;
-}
-
-.hero-food-text {
-    width: 50%;
-    margin: 0 auto;
-}
-
-.hero-food-text > article > h2 {
-    margin: 0;
-    color: red;
-    font-size: 64px;
-    font-weight: bold;
-    font-family: 'Petit Formal Script', cursive;
-}
-
-.hero-food-text > article > p {
-    font-size: 24px;
-}
-
-/* Main */
-.main-container {
-    width: 100%;
-    height: fit-content;
-    display: inline-flex;
-    margin-top: 3rem;
-}
-
-.rcp-info {
-    margin: 50px;
-}
-
-.rcp-info > .rcp-ingred,
-.rcp-info > .rcp-steps {
-    text-align: center;
-}
-
-.rcp-info > .rcp-ingred > h2,
-.rcp-info > .rcp-steps > h2
-{
-    font-size: 40px;
-}
-
-.rcp-table {
-    margin: 0 auto;
+.prev-content {
     width: 40%;
 }
 
-.rcp-table td:first-child {
-    text-align: left;
+.prev-content > h1 {
+    font-size: 64px;
+    color: #c7a9a9;
+    font-family: 'Dancing Script', cursive;
 }
 
-.rcp-table td {
-    text-align: right;
-}
-.rcp-steps > .list {
-    width: 70%;
-    margin: auto 10%;
-}
-.rcp-info > .rcp-steps > ol {
-    text-align: justify;
+.prev-prepInfo {
+    display: flex;
+    gap: 64px;
+    padding: 20px;
 }
 
-.rcp-end > .rcp-result {
+.prev-prepInfo > li {
+    list-style: none;
     text-align: center;
 }
 
-.rcp-r-img > img {
-    width: 600px;
-    height: 400px;
+.prev-prepInfo-label {
+    font-weight: bold;
 }
 
-.rcp-tutorial {
-    text-align: center;
+.prev-prepInfo-icon > img {
+    height: 64px;
+    width: 64px;
+}
+
+.prev-img {
+    margin: 0 auto;
+}
+
+.prev-img > img {
+    height: 100%;
+    width: 100%;
 }
