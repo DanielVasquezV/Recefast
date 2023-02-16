@@ -4,26 +4,39 @@
 .prev-container {
     display: flex;
     margin: 5rem 6rem;
-    box-shadow: 18px -15px 39px -1px rgba(0,0,0,0.41);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    width: 90%;
 }
 
 .prev-content {
-    width: 40%;
+    width: 50%;
 }
 
 .prev-content > h1 {
-    font-size: 64px;
+    font-size: 76px;
     color: #c7a9a9;
     font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.prev-content > h1::after {
+    content: "";
+    background: #c7a9a9;
+    display: block;
+    width: 40%;
+    height: 3px;
+    margin: 0 auto;
 }
 
 .prev-prepInfo {
     display: flex;
-    gap: 64px;
+    gap: 32px;
     padding: 20px;
 }
 
 .prev-prepInfo > li {
+    margin: 0 auto;
     list-style: none;
     text-align: center;
 }
@@ -33,15 +46,13 @@
 }
 
 .prev-prepInfo-icon > img {
-    height: 64px;
     width: 64px;
+    height: 64px;
 }
 
 .prev-img {
-    margin: 0 auto;
-}
-
-.prev-img > img {
-    height: 100%;
-    width: 100%;
+    width: 50%;
+    background-size: cover;
+    background-image: url(../img/countries/croissant/hero.jpg);
+    border-radius: 0 20px 20px 0;
 }
