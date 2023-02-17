@@ -72,8 +72,23 @@
 .prev-img {
     width: 60%;
     background-size: cover;
-    background-image: url(../img/countries/croissant/hero.jpg);
     border-radius: 0 1.25rem 1.25rem 0;
+}
+
+.prev-img.croissant {
+    background-image: url(../img/countries/croissant/hero.jpg);
+} 
+
+.prev-img.choucroute {
+    background-image: url(../img/countries/choucrute/hero.webp);
+}
+
+.prev-img.tortilla {
+    background-image: url(../img/countries/tortilla/hero.jpeg);
+}
+
+.prev-img.paella {
+    background-image: url(../img/countries/paella/hero.jpg);
 }
 
 /* Content */
@@ -111,10 +126,12 @@ main.desc-main {
 .desc-main > .desc-ingre > .ingre-list > li,
 .desc-main > .desc-prep > .prep-steps > li {
     margin: 1.25rem auto;
+    text-align: justify;
 }
 
 .desc-main > .desc-extra {
     margin: 2rem auto;
+    text-align: justify;
 }
 
 .desc-main > .desc-extra > .aditional-info > h2::after {
