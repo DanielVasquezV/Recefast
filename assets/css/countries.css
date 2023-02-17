@@ -4,17 +4,18 @@
 .prev-container {
     display: flex;
     margin: 5rem 6rem;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-    border-radius: 20px;
+    box-shadow: 0.125rem 0.3125rem 2.1875rem 0.625rem rgba(0,0,0,0.4);
+    border-radius: 1.25rem;
     width: 90%;
 }
 
 .prev-content {
-    width: 50%;
+    width: 40%;
 }
 
 .prev-content > h1 {
-    font-size: 76px;
+    margin: 2rem auto 1rem;
+    font-size: 4.75rem;
     color: #c7a9a9;
     font-family: 'Dancing Script', cursive;
     text-align: center;
@@ -25,14 +26,14 @@
     background: #c7a9a9;
     display: block;
     width: 40%;
-    height: 3px;
+    height: 0.1875rem;
     margin: 0 auto;
 }
 
 .prev-prepInfo {
     display: flex;
-    gap: 32px;
-    padding: 20px;
+    gap: 2rem;
+    padding: 1.25rem;
 }
 
 .prev-prepInfo > li {
@@ -41,18 +42,89 @@
     text-align: center;
 }
 
-.prev-prepInfo-label {
+.prev-prepInfo-value {
     font-weight: bold;
 }
 
 .prev-prepInfo-icon > img {
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
+}
+
+.prev-content > .prev-typeInfo {
+    display: flex;
+    padding: 0;
+}
+
+.prev-content > .prev-typeInfo > li {
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+.prev-content > .prev-typeInfo > .prev-typeInfo-category > .prev-typeInfo-value {
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    border: 0.125rem solid #c7a9a9;
+    font-weight: bold;
 }
 
 .prev-img {
-    width: 50%;
+    width: 60%;
     background-size: cover;
     background-image: url(../img/countries/croissant/hero.jpg);
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 1.25rem 1.25rem 0;
+}
+
+/* Content */
+.desc-twoColumns {
+    width: 100%;
+    height: fit-content;
+    display: inline-flex;
+}
+
+main.desc-main {
+    margin: 0 2rem;
+    font-size: 1.25rem;
+}
+
+.desc-main > .desc-intro {
+    text-align: justify;
+}
+
+.desc-main > .desc-ingre > h2,
+.desc-main > .desc-prep > h2,
+.desc-main > .desc-extra > .aditional-info > h2 {
+    font-size: 2rem;
+    color: #c7a9a9;
+}
+
+.desc-main > .desc-ingre > h2::after,
+.desc-main > .desc-prep > h2::after {
+    content: "";
+    background: #c7a9a9;
+    display: block;
+    width: 20%;
+    height: 0.1875rem;
+}
+
+.desc-main > .desc-ingre > .ingre-list > li,
+.desc-main > .desc-prep > .prep-steps > li {
+    margin: 1.25rem auto;
+}
+
+.desc-main > .desc-extra {
+    margin: 2rem auto;
+}
+
+.desc-main > .desc-extra > .aditional-info > h2::after {
+    content: "";
+    background: #c7a9a9;
+    display: block;
+    width: 50%;
+    height: 0.1875rem;
+}
+
+.desc-main > .desc-extra > .tutorial {
+    text-align: center;
 }
