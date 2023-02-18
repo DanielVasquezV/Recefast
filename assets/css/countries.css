@@ -75,6 +75,12 @@
     border-radius: 0 1.25rem 1.25rem 0;
 }
 
+.prev-img.napolitana{
+    background-image: url(../img/napolitana-banner.jfif);
+}
+.prev-img.carbonara{
+    background-image: url(../img/carbonara-banner.jpg);
+}
 .prev-img.croissant {
     background-image: url(../img/countries/croissant/hero.jpg);
 } 

@@ -111,9 +111,12 @@ body{
     height: fit-content;
     display: inline-flex;
     margin-top: 3rem;
+    position: relative; 
 }
 aside{
     width: 20%;
+    position: sticky; 
+    top: 10px;
 }
 aside p{
     text-align: center;
