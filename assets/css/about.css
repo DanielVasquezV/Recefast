@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.abt-prev {
+    display: block;
+    margin-top: 6rem;
+}
+
+.abt-prev > .abt-text {
+    margin: auto 30%;
+    text-align: center;
+}
+
+.abt-prev > .abt-text > h1 {
+    color: #2d3468;
+    font-size: 6em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.abt-prev > .abt-text > h1 > span {
+    font-style: italic;
+}
+
+.abt-prev > .abt-text > p {
+    font-size: 0.875rem;
+}
+
+.abt-prev > .abt-stats {
+    gap: 4rem;
+    display: flex;
+}
+
+.abt-prev > .abt-stats > article {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.abt-prev > .abt-stats > article > .stat-num {
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.abt-prev > .abt-stats > article > .stat-label {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.abt-main {
+    width: 100%;
+    margin: 3rem auto;
+}
+
+.abt-main > .abt-banner > img {
+    width: 100%;
+    height: 100%;
+}
+
+.abt-main > .main-intro {
+    margin: 0 25%;
+    text-align: center;
+}
+
+.abt-main > .main-intro > p:nth-child(1) {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.abt-main > .main-intro > p:nth-child(2) {
+    font-size: 14px;
+    margin: 0 20%;
+}
+
+.abt-main > .main-goals {
+    background-color: #EAEAEA;
+    margin-top: 5rem;
+}
+
+.abt-main > .main-goals > h2 {
+    font-size: 3rem;
+    padding: 1.25rem;
+    color: #2d3468;
+    text-align: center;
+}
+
+.abt-main > .main-goals > h2::after {
+    content: "";
+    background: #2d3468;
+    display: block;
+    width: 25%;
+    height: 0.1875rem;
+    margin: 0 auto;
+}
+
+.abt-main > .main-goals > .goals-container {
+    gap: 3rem;
+    display: flex;
+    margin: 0 15%;
+}
+
+.abt-main > .main-goals > .goals-container > div > .goals-title {
+    font-size: 2rem;
+    color: #9c8585;
+}
+
+.abt-main > .main-goals > .goals-container > div > .goals-value {
+    font-size: 1.25rem;
+    text-align: justify;
+}
