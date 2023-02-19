@@ -56,7 +56,7 @@ body{
 .searchbox:focus-within{
     border: 1px solid #c7a9a9;
     transition: .3s; 
-
+    background-color: #F2E5E5;
 }
 .searchbox:hover{
     border: 1px solid #c7a9a9; 
@@ -100,6 +100,7 @@ body{
 }
 .description1{
     text-align: center;
+    /* margin-bottom: 5rem; */
 }
 .description1 article{
     width: 53rem;
@@ -112,11 +113,16 @@ body{
     display: inline-flex;
     margin-top: 3rem;
     position: relative; 
+    flex-grow: 1;
 }
 aside{
     width: 20%;
     position: sticky; 
     top: 10px;
+}
+aside .inner{
+    position: sticky;
+    top: 6rem;
 }
 aside p{
     text-align: center;
@@ -132,12 +138,11 @@ main{
     width: 90%;
     margin: auto;
     height: 22rem;
-    background-color: red;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .countryBannerS1{
     width: 50%;
@@ -146,6 +151,9 @@ main{
     background-image: url(../img/banners/kitchen-french.jpg);
     background-position: center 80%;
     background-size: cover;
+    transform: translateY(-35px);
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 .countryBannerS1_2{
     width: 50%;
@@ -154,6 +162,9 @@ main{
     background-image: url(../img/banners/kitchen-italian.webp);
     background-position: center 80%;
     background-size: cover;
+    transform: translateY(-35px);
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
 }
 .countryBannerS1_3{
     width: 50%;
@@ -162,13 +173,25 @@ main{
     background-image: url(../img/banners/kitchen-spanish.jpg);
     background-position: center 80%;
     background-size: cover;
+    transform: translateY(-35px);
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
 }
 .countryBannerS2{
     width: 50%;
     height: 100%;
-    background-color: #E8C4C4;
+    background-color: #e8c4c4f6;
     text-align: center;
     padding: 0 2rem;
+    border-radius: 40px;
+    box-shadow: 0px 0px 8px 0px rgba(153, 152, 152, 0.39);
+}
+.transform_1{
+    transform: translateX(-70px);
+}
+.transform_2{
+    transform: translateX(70px);
+    z-index: 90;
 }
 .countryBannerS2 h2{
     margin: 2.9rem auto .5rem auto;
@@ -183,11 +206,17 @@ main{
 }
 .viewMoreBtn{
     text-decoration: none;
-    background-color: #2B3A55;
-    color: #ffffff;
+    background-color: #dcb1b19f;
+    color: #5a4545;
     padding: .5rem .6rem;
-    border-radius: 8px;
-    
+    border-top: 8px;
+    border-radius: 30%;
+    border: 3px solid #8f7171; 
+    transition: .3s;  
+}
+.viewMoreBtn:hover{
+    background-color: #F2E5E5;
+    transition: .3s;
 }
 /* ----------- */
 .chef-text{
@@ -208,7 +237,7 @@ main{
     border-radius: 20px;
     text-align: center;
     padding: 1.5rem;
-    height: 15rem;
+    height: 18rem;
     box-shadow: 0px 0px 8px 0px rgba(153, 152, 152, 0.75);
 }
 .chef-img-container{

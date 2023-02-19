@@ -72,6 +72,7 @@
     font-size: 2rem;
 }
 .recipeItalian{
+    position: relative;
     width: 90%;
     margin: auto;
     height: 22rem;
@@ -79,11 +80,33 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
     border: 1px solid #c7a9a98a;
     border-radius: 30px;
     box-shadow: 0px 0px 8px 0px rgba(173, 167, 167, 0.404);
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
+    border-left: 6px solid #CE7777;
+}
+.border-right-rcp{
+    border-right: 6px solid #CE7777;
+}
+.recipeItalian .headding-type{
+    position: absolute;
+    width: 100%;
+    height: 1.5rem;
+    background-color: #CE7777;
+    top: 0;
+    transform: translateY(-10px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 6px solid #CE7777;
+}
+.recipeItalian .headding-type p{
+    margin: 0 0 0 1rem;
+    color: whitesmoke;
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
 }
 .recipeItalianS1{
     width: 50%;
@@ -93,13 +116,16 @@
     justify-content: center;
 }
 .recipeItalianS1 img{
-    width: 30rem;
+    width: 25rem;
+    filter: drop-shadow(0px 5px 12px #CE7777);
 }
 .recipeFrenchS1 img{
-    width: 20rem;
+    width: 18rem;
+    filter: drop-shadow(0px 5px 12px #CE7777);
 }
 .recipeSpanishS1 img{
     width: 25rem;
+    filter: drop-shadow(0px 5px 12px #CE7777);  
 }
 .recipeItalianS2{
     width: 50%;
@@ -131,10 +157,13 @@
 }
 .viewMoreBtn2 {
     color: #CE7777;
+    transition: .3s;
 }
 .viewMoreBtn2:visited {
-    color: #CE7777;
+    color: #ba3232;
+    transition: .3s;
 }
 .viewMoreBtn2:hover {
-    filter: brightness(1.75);
+    filter: brightness(1.135);
+    transition: .3s;
 }
