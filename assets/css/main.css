@@ -53,6 +53,7 @@ body{
     border: 1px solid transparent;
     transition: .3s;
 }
+/* Se utiliza la pseudoclase :focus-within para modificar los elementos del contenedor cuando en uno de sus hijos se hace focus */
 .searchbox:focus-within{
     border: 1px solid #c7a9a9;
     transition: .3s; 
@@ -292,6 +293,7 @@ footer{
 	opacity: 0.8;
 	text-decoration: none;
 }
+/* Se utiliza la pseudoclase :hover para modificar el estilo cuando el cursor pasa por encima */
 .menu-item-footer:hover{
 	opacity: 1;
 	color: #ffffff;

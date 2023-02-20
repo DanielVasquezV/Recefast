@@ -159,6 +159,7 @@
     color: #CE7777;
     transition: .3s;
 }
+/* Se utiliza la pseudoclase :visited para modificar el estilo cuando el enlace ya ha sido visitado */
 .viewMoreBtn2:visited {
     color: #ba3232;
     transition: .3s;

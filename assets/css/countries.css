@@ -20,7 +20,7 @@
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
-
+/* Se utiliza el pseudoelemento ::after para dibujar una linea despues del h1 */
 .prev-content > h1::after {
     content: "";
     background: #c7a9a9;

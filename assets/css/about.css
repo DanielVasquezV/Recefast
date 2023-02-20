@@ -61,12 +61,12 @@
     margin: 0 25%;
     text-align: center;
 }
-
+/* Se utiliza la pseudoclase para seleccionar el primer hijo <p> del contenedor */
 .abt-main > .main-intro > p:nth-child(1) {
     font-size: 36px;
     font-weight: lighter;
 }
-
+/* Se utiliza la pseudoclase para seleccionar el segundo hijo <p> del contenedor */
 .abt-main > .main-intro > p:nth-child(2) {
     font-size: 14px;
     margin: 0 20%;
@@ -84,6 +84,7 @@
     text-align: center;
 }
 
+/* Se utiliza el pseudoelemento ::after para dibujar una linea despues del h2 */
 .abt-main > .main-goals > h2::after {
     content: "";
     background: #2d3468;
