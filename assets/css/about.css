@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+/* Header */
 .abt-prev {
     display: block;
     margin-top: 6rem;
@@ -45,6 +46,7 @@
     margin-top: 0;
 }
 
+/* Container */
 .abt-main {
     width: 100%;
     margin: 3rem auto;
