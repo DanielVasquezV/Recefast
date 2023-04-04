@@ -147,14 +147,6 @@
     width: 15rem;
     margin: 0 0 1rem 0;
 }
-.viewMoreBtn{
-    text-decoration: none;
-    background-color: #2B3A55;
-    color: #ffffff;
-    padding: .5rem .6rem;
-    border-radius: 8px;
-    
-}
 .viewMoreBtn2 {
     color: #CE7777;
     transition: .3s;
