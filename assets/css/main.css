@@ -332,6 +332,28 @@ footer{
 	opacity: 1;
 	color: #ffffff;
 }
+
+.lang-box > label {
+    display: block;
+}
+
+.lang-box > button {
+    background-color: transparent;
+    border: transparent;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.lang-box > button:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.lang-box img {
+    height: 16px;
+    width: 16px;
+}
+
 .copyright-container{
 	width: 100%;
 	display: flex;
